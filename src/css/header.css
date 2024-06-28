@@ -1,17 +1,4 @@
-.link {
-  text-decoration: none;
-  font-style: normal;
 
-}
-
-
-.container {
-  max-width: 375px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-/* ------------------------------Header--------------------------- */
 .header {
   border-bottom: 1px solid rgba(12, 12, 12, 0.1);
 
@@ -371,6 +358,3 @@
     display: none;
   }
 }
-
-
-/* ______________________________________________________________________________ */
