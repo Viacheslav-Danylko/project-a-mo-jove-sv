@@ -36,6 +36,7 @@
   line-height: 1.25;
   text-align: center;
   color: #0c0c0c;
+  margin-bottom: 8px;
 }
 
 .reviews-container-text {
@@ -61,6 +62,7 @@
 
   .reviews-title {
     margin-bottom: 40px;
+    font-size: 48px;
   }
 
   .reviews-list {
@@ -72,10 +74,27 @@
   .reviews-list-item {
     width: 344px;
     height: 272px;
+    justify-content: flex-start;
   }
 
   .hidden-mob {
     display: flex;
+  }
+
+  .reviews-subtitle {
+    font-size: 18px;
+    line-height: 1.1;
+    width: 298px;
+  }
+
+  .container-text {
+    width: 272px;
+  }
+
+  .reviews-container-text {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
   }
 
   .hidden-tablet {
@@ -106,5 +125,12 @@
 
   .hidden-tablet {
     display: flex;
+  }
+
+  .reviews-container-text {
+    width: 298px;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
   }
 }
