@@ -1,5 +1,5 @@
 .sale-container {
-    padding-top: 60px;
+    /* padding-top: 60px; */
     padding-bottom: 60px;
 }
 .sale-title {
@@ -107,7 +107,7 @@
 @media screen and (min-width: 768px) {
     .sale-container {
         max-width: 768px;
-        padding: 80px 32px;
+        padding: 0 32px 80px 32px;
     }
     .sale-title {
         font-weight: 600;
@@ -128,8 +128,13 @@
     }
     .sale-price {
         margin-bottom: 30px;
+    }
+    .sale-current {
         font-size: 20px;
         line-height: 100%;
+    }
+    .sale-original {
+        font-size: 12px;
     }
     .sale-description {
         font-size: 16px;
@@ -162,12 +167,34 @@
     .sale-contant-item {
         width: 132px;
         height: 132px;
+        margin-bottom: 10px;
+    }
+    .sale-contant-item:last-child {
+        margin-bottom: 0;
     }
     .sale-main-contant {
         width: 552px;
         height: 558px;
+        margin-bottom: 0;
     }
 }
 @media screen and (min-width: 1280px) {
-    
+    .sale-container {
+        max-width: 1280px;
+        padding: 0 65px 100px 65px;
+    }
+    .sale-wrapper {
+        display: flex;
+    }
+    .sale-carousel {
+        margin-bottom: 0;
+        margin-right: 40px;
+    }
+    .sale-main-contant {
+        width: 428px;
+    }
+    .sale-review {
+        width: 530px;
+        height: 558px;
+    }
 }
