@@ -1,17 +1,15 @@
 ul, ol {
     list-style-type: none;}
 .footer-container{
-    width: 335px;
-    height: 581px;
     border-radius: 30px;
     background: #0C0C0C;
     color: #FBFBFB;
-    padding-top: 40px;
-    padding-right: 28px;
-    padding-bottom: 28px;
-    padding-left: 28px;
     align-items: flex-start;
 gap: 10px;
+padding-top: 40px;
+padding-left: 28px;
+padding-bottom: 28px;
+padding-right: 28px;
 }
 .footer-section-one{
     display: flex;
@@ -108,10 +106,72 @@ opacity: 0.9;
 align-items: flex-start;
 gap: 20px;
 }
+
 @media screen and (min-width: 768px){
     .container{
         max-width: 768px;
+        padding-top: 40px;
+        padding-right: 40px;
+        padding-bottom: 28px;
+        padding-left: 40px;
     } 
+    .footer-logo{
+        font-size: 20px;
+    }
+    .footer-icon{
+        width: 20px;
+        height: 20px;
+    }
+    .footer-logo-media-wrapper{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 86px;
+    }
+    .footer-section-one{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: baseline;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+    .footer-media-list{
+        margin-bottom: 0;
+    }
+    .footer-text{
+        max-width: 524px;
+        font-size: 28px;
+        line-height: 32px;
+        margin: auto;
+    }
+    .footer-nav-wrapper{
+        justify-content: space-between;
+        margin-bottom: 28px;
+        border-bottom: 1px solid rgba(251, 251, 251, 0.10);
+    }
+    .footer-menu-list{
+        flex-wrap: nowrap;
+        line-height: 18px;
+        gap: 19px;
+        font-size: 14px;
+    }
+    .footer-address{
+        font-size: 14px;
+        width: 162px;
+        line-height: 18px;
+    }
+    .footer-policy-wrapper{
+     flex-direction: row;
+     justify-content: space-between;
+    }
+    .footer-policy-text{
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.28px
+    }
+    .footer-policy-list{
+        font-size: 14px;
+line-height: 18px;
+    }
 }
 @media screen and (min-width: 1280px){
     .container{
