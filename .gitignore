@@ -11,7 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
-pullrtquests-list.txt
+pullrequests-list.txt
 
 # Editor directories and files
 .vscode/*
