@@ -46,6 +46,11 @@
     border-radius: 16px;
 }
 
+.advertisement-button:hover {
+    color: #0c0c0c;
+    background-color: #fbfbfb;
+}
+
 
 @media screen and (min-width: 768px) {
 .container {
