@@ -273,5 +273,7 @@ color: #0c0c0c;
     }
 }
 
-/* .contact-us-image {
-} */
+.contact-us-image {
+    background: url("path_to_image");
+    display: block;
+}
