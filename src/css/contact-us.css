@@ -68,6 +68,7 @@
         border-radius: 50px;
         width: 580px;
         height: 556px;
+        margin-right: 40px;
     }
 }
 
@@ -161,7 +162,7 @@ color: #0c0c0c;
 }
 
 
-.contact-us-form-input:focus,
+.contact-us-form-input:hover,
 .contact-us-form-input:focus {
     border-color: #3350E9; 
 }
@@ -197,7 +198,7 @@ color: #0c0c0c;
     }
 }
 
-.contact-us-user-comment:focus,
+.contact-us-user-comment:hover,
 .contact-us-user-comment:focus {
     border-color: #3350E9; 
 }
@@ -249,12 +250,12 @@ color: #0c0c0c;
 
 
 .contact-us-picture {
-    background-color: aqua;
+   
     border-radius: 30px;
     width: 335px;
     height: 512px;
     margin-bottom: 60px;
-    /* background: url("path_to_image"); */
+    background: url("path_to_image");
 }
 
 @media screen and (min-width: 768px) {
@@ -273,7 +274,7 @@ color: #0c0c0c;
     }
 }
 
-.contact-us-image {
+/* .contact-us-image {
     background: url("path_to_image");
     display: block;
-}
+} */
