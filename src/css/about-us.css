@@ -1,12 +1,127 @@
 .about-us {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
+
 .about-us-box {
+    width: 335px;
+    background-color: #F3F3F3;
+    border-radius: 30px;
+    margin: 60px 20px 0 20px;
+
 }
+
 .about-us-title {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 28px;
 }
+
 .about-us-text {
+    width: 295px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
 }
+
 .about-us-btn-link {
+    display: inline-block;
+    padding: 15px 37px 15px 38px;
+    background-color: #3350E9;
+    color: #FBFBFB;
+    text-align: center;
+    width: 160px;
+    height: 48px;
+    border-radius: 16px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
+
+.about-us-btn-link:hover,
+.about-us-btn-link:focus {
+    background-color: #1F3CD4;
+}
+
 .about-us-img-box {
+    margin: 0 20px 60px 20px;
+}
+
+.about-us-img {
+    border-radius: 30px;
+    width: 335px;
+}
+
+@media screen and (min-width: 768px) {
+    .about-us {
+        width: 768px;
+        gap: 40px;
+    }
+
+    .about-us-box {
+        width: 704px;
+    }
+
+    .about-us-title {
+        margin: 80px 60px;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 0.92;
+        margin-bottom: 40px;
+    }
+
+    .about-us-text {
+        width: 584px;
+        margin-left: 60px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -0.02em;
+        color: rgba(12, 12, 12, 0.7);
+    }
+
+    .about-us-btn-link {
+        margin-top: 40px;
+        margin-left: 60px;
+        margin-bottom: 80px;
+    }
+
+    .about-us-img-box {
+        margin-bottom: 80px;
+    }
+
+    .about-us-img {
+        border-radius: 50px;
+        width: 704px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .about-us {
+        width: 1280px;
+        padding: 0px 65px;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .about-us-box {
+        width: 580px;
+        margin: 0 auto;
+    }
+
+    .about-us-text {
+        width: 460px;
+    }
+
+    .about-us-btn-link {
+        margin-top: 20px;
+    }
+
+    .about-us-img-box {
+        width: 530px;
+        margin: 0 auto;
+    }
 }
