@@ -2,7 +2,6 @@
   margin-bottom: 60px;
 }
 .catalog-title {
-  margin-left: 20px;
   margin-bottom: 24px;
 }
 .catalog-list {
@@ -58,7 +57,6 @@
   }
   .catalog-title {
     font-size: 48px;
-    margin-left: 32px;
     margin-bottom: 40px;
   }
   .catalog-list {
@@ -94,7 +92,6 @@
     margin-bottom: 100px;
   }
   .catalog-title {
-    margin-left: 65px;
     margin-bottom: 40px;
   }
   .catalog-list {
