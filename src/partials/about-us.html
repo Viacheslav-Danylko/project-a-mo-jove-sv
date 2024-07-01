@@ -1,25 +1,27 @@
 <section class="about-us">
-    <div class="about-us-box">
-        <h2 class="about-us-title">About Us</h2>
-        <p class="about-us-text">Welcome to our premium watch collection, where luxury and style meet functionality and precision. Our selection of timepieces embodies the very best in Swiss craftsmanship and engineering, ensuring that you'll always have a reliable and stylish accessory on your wrist.</p>
-        <p class="about-us-text">At our premium watch collection, we believe that a watch is more than just a timekeeping device - it's a statement piece that reflects your personality and style. So why settle for anything less than the best? </p>
-        <a href="#" class="about-us-btn-link">View catalog</a>
+    <div class="container about-us-container">
+        <div class="about-us-box">
+            <h2 class="about-us-title" id="about-us">About Us</h2>
+            <p class="about-us-text">Welcome to our premium watch collection, where luxury and style meet functionality and precision. Our selection of timepieces embodies the very best in Swiss craftsmanship and engineering, ensuring that you'll always have a reliable and stylish accessory on your wrist.</p>
+            <p class="about-us-text">At our premium watch collection, we believe that a watch is more than just a timekeeping device - it's a statement piece that reflects your personality and style. So why settle for anything less than the best? </p>
+            <a href="#" class="about-us-btn-link">View catalog</a>
+        </div>
+        <div class="about-us-img-box">
+            <picture>
+                <source srcset="
+                /img/about-us/about-mob-1x.jpg 1x,
+                /img/about-us/about-mob-2x.jpg 2x"
+                media="(max-width: 767px)"/>
+                <source srcset="
+                /img/about-us/about-tab-1x.jpg 1x,
+                /img/about-us/about-tab-2x.jpg 2x"
+                media="(min-width: 768px) and (max-width: 1157px)"/>
+                <source srcset="
+                /img/about-us/about-ds-1x.jpg 1x,
+                /img/about-us/about-ds-2x.jpg 2x"
+                media="(min-width: 1280px)"/>
+                <img src="/img/about-us/about-ds-1x.jpg" alt="Watch">
+            </picture>
+        </div>
     </div>
-    <div class="about-us-img-box">
-        <picture>
-            <source srcset="
-            /img/about-us/about-mob-1x.jpg 1x, 
-            /img/about-us/about-mob-2x.jpg 2x" 
-            media="(max-width: 767px)"/>
-            <source srcset="
-            /img/about-us/about-tab-1x.jpg 1x, 
-            /img/about-us/about-tab-2x.jpg 2x"
-            media="(min-width: 768px)"/>
-            <source srcset="
-            /img/about-us/about-ds-1x.jpg 1x, 
-            /img/about-us/about-ds-2x.jpg 2x" 
-            media="(min-width: 1280px)"/>
-            <img src="/img/about-us/about-ds-1x.jpg" alt="Watch">
-        </picture>
-    </div>
-</section> 
+</section>
