@@ -7,10 +7,21 @@
     width: 335px;
     padding: 60px 28px;
     border-radius: 30px;
+    background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
     background-color: #0c0c0c;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
-        url(../img/header/bg-hed-mob-1x.jpg); 
-}
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+            url(/img/advertisement/advertisement-mob-1x.jpg);
+    }
+    
+    @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+        .advertisement-container {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/advertisement/advertisement-mob-2x.jpg);
+        }
+    }
 .advertisement-list {
     display: flex; 
     flex-direction: column;
@@ -40,7 +51,7 @@
         line-height: 1.29;
         text-align: center;
         color: #fbfbfb;
-    
+
     border: 1px solid rgba(251, 251, 251, 0.15);
     background-color: transparent;
     border-radius: 16px;
@@ -62,9 +73,20 @@
     width: 704px;
     padding: 80px 64px;
 
-    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
-        url(../img/header/bg-hed-tab-1x.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+            url(/img/advertisement/advertisement-tab-1x.jpg);
 }
+        
+    @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+        .advertisement-container {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/advertisement/advertisement-tab-2x.jpg);
+        }
+}
+
+
+
 .advertisement-text {
         font-size: 48px;
         line-height: 0.92;
@@ -81,12 +103,19 @@
         padding: 0 65px;
 }
 .advertisement-container {
-            width: 1150px;
-            padding: 83px 80px;
-
-            background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
-                url(../img/header/bg-hed-d-1x.jpg);
-        }
+    width: 1150px;
+    padding: 83px 80px;
+background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url(/img/advertisement/advertisement-ds-1x.jpg);
+}
+        
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 2dppx),
+(min-resolution: 192dpi) {
+    .advertisement-container {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/advertisement/advertisement-ds-2x.jpg);
+    }
+}
 
 .advertisement-list {
     display: flex;
