@@ -1,8 +1,7 @@
-.catalog{
+.catalog-container {
   margin-bottom: 60px;
 }
 .catalog-title {
-  margin-left: 20px;
   margin-bottom: 24px;
 }
 .catalog-list {
@@ -11,7 +10,6 @@
   flex-direction: column;
   justify-content: flex-start;
   gap: 20px;
-  
 }
 .catalog-item {
   background: #f3f3f3;
@@ -45,24 +43,27 @@
   text-align: center;
   color: #fbfbfb;
   margin-top: 40px;
-  margin-left: 87px;
   border: 1px dashed #9747ff;
 }
+.catalog-btn-container{
+  display: flex;
+  justify-content: center;
+  
+}
 @media screen and (min-width: 768px) {
-  .catalog{
+  .catalog-container {
+    padding: 0 32px;
     margin-bottom: 80px;
   }
   .catalog-title {
     font-size: 48px;
-    margin-left: 32px;
     margin-bottom: 40px;
   }
   .catalog-list {
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0 32px;
+    justify-content: space-between;
+    padding: 0;
     gap: 32px 16px;
   }
   .catalog-item {
@@ -83,18 +84,17 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .catalog{
+  .catalog {
     margin-bottom: 100px;
   }
   .catalog-title {
-    margin-left: 65px;
     margin-bottom: 40px;
   }
   .catalog-list {
+    
     gap: 32px 23px;
   }
-  .catalog-item{
+  .catalog-item {
     width: 368px;
-    
   }
 }
