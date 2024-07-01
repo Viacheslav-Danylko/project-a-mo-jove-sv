@@ -48,11 +48,18 @@
   margin-left: 87px;
   border: 1px dashed #9747ff;
 }
+
+.catalog-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+
 @media screen and (min-width: 768px) {
-  .catalog-container{
-    max-width: 768px;
-  }
+
   .catalog{
+
     margin-bottom: 80px;
   }
   .catalog-title {
@@ -64,8 +71,12 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+
+    padding: 0;
+
     align-items: center;
-    padding: 0 32px;
+   
+
     gap: 32px 16px;
   }
   .catalog-item {
