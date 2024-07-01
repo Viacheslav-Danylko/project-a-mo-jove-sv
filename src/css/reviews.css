@@ -46,6 +46,12 @@
   color: rgba(12, 12, 12, 0.4);
 }
 
+@media screen and (max-width: 374px) {
+  .reviews-list-item {
+    width: 100%;
+  }
+}
+
 /* -----------------Tablet----------------- */
 @media screen and (min-width: 768px) {
   .container {
