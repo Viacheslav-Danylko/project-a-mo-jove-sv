@@ -1,46 +1,57 @@
-
-.advertisement-section {
+.advertisement {
     margin-bottom: 60px;
 }
 
-.advertisement-container {
+.advertisement-container-into {
     width: 335px;
     padding: 60px 28px;
     border-radius: 30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     background-color: #0c0c0c;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
-        url(../img/header/bg-hed-mob-1x.jpg); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+        url(/img/advertisement/advertisement-mob-1x.jpg);
 }
+
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 2dppx),
+(min-resolution: 192dpi) {
+    .advertisement-container-into {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/img/advertisement/advertisement-mob-2x.jpg);
+    }
+}
+
 .advertisement-list {
-    display: flex; 
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
     gap: 32px;
 }
+
 .advertisement-text {
     font-weight: 600;
     font-size: 32px;
     line-height: 1;
-    letter-spacing: -0.02em;
     color: #fbfbfb;
     margin-bottom: 28px;
 }
-    
+
 .advertisement-text-color {
     color: rgba(251, 251, 251, 0.5);
 }
-        
+
 .advertisement-button {
     min-width: 160px;
-    padding: 16px 44px;
-    
+    padding: 16px 43px  16px 44px;
+
     font-weight: 500;
-        font-size: 14px;
-        line-height: 1.29;
-        text-align: center;
-        color: #fbfbfb;
-    
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #fbfbfb;
+
     border: 1px solid rgba(251, 251, 251, 0.15);
     background-color: transparent;
     border-radius: 16px;
@@ -53,47 +64,65 @@
 
 
 @media screen and (min-width: 768px) {
-.container {
+    .advertisement-container {
         max-width: 768px;
         padding: 0 32px;
     }
 
-.advertisement-container {
-    width: 704px;
-    padding: 80px 64px;
+    .advertisement-container-into {
+        width: 704px;
+        padding: 80px 64px;
 
-    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
-        url(../img/header/bg-hed-tab-1x.jpg);
-}
-.advertisement-text {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+            url(/img/advertisement/advertisement-tab-1x.jpg);
+    }
+
+    @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+        .advertisement-container-into {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/img/advertisement/advertisement-tab-2x.jpg);
+        }
+    }
+
+
+
+    .advertisement-text {
         font-size: 48px;
         line-height: 0.92;
         color: rgb(251, 251, 251);
-}
+    }
 
 }
 
 
 @media screen and (min-width: 1280px) {
-.container {
+    .advertisement-container {
         max-width: 1280px;
-        margin: 0 auto;
         padding: 0 65px;
-}
-.advertisement-container {
-            width: 1150px;
-            padding: 83px 80px;
+    }
 
-            background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
-                url(../img/header/bg-hed-d-1x.jpg);
+    .advertisement-container-into {
+        width: 1150px;
+        padding: 83px 80px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+            url(/img/advertisement/advertisement-ds-1x.jpg);
+    }
+
+    @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+        .advertisement-container-into {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/img/advertisement/advertisement-ds-2x.jpg);
         }
+    }
 
-.advertisement-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: start;
-    gap: 140px;
-}
+    .advertisement-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        gap: 140px;
+    }
 
 }
