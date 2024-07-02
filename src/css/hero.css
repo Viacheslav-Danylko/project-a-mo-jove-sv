@@ -1,8 +1,8 @@
 @media screen and (max-width: 374px),
 screen and (min-width: 375px) {
-    img {
+    /* img {
         max-width: none;
-    }
+    } */
 
     .hero-container {
         color: #ffffff;
