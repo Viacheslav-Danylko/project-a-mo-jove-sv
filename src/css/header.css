@@ -130,8 +130,7 @@
 } */
 
 .menu-nav-item:hover::after,
-.menu-nav-item:active::after,
-.menu-nav-item:focus::after {
+.menu-nav-item:active::after {
   content: '';
   position: absolute;
 
@@ -189,8 +188,7 @@
 }
 
 .menu-socials-item:hover .menu-socials-icon,
-.menu-socials-item:active .menu-socials-icon,
-.menu-socials-item:focus-within .menu-socials-icon {
+.menu-socials-item:active .menu-socials-icon {
   fill: #fbfbfb;
 }
 
