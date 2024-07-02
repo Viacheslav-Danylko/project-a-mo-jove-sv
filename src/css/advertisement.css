@@ -11,7 +11,7 @@
         background-position: center center;
         background-size: cover;
     background-color: #0c0c0c;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
             url(/img/advertisement/advertisement-mob-1x.jpg);
     }
     
@@ -19,7 +19,7 @@
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
         .advertisement-container {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/advertisement/advertisement-mob-2x.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/img/advertisement/advertisement-mob-2x.jpg);
         }
     }
 .advertisement-list {
@@ -73,7 +73,7 @@
     width: 704px;
     padding: 80px 64px;
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
             url(/img/advertisement/advertisement-tab-1x.jpg);
 }
         
@@ -81,7 +81,7 @@
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
         .advertisement-container {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/advertisement/advertisement-tab-2x.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/img/advertisement/advertisement-tab-2x.jpg);
         }
 }
 
@@ -105,7 +105,7 @@
 .advertisement-container {
     width: 1150px;
     padding: 83px 80px;
-background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
         url(/img/advertisement/advertisement-ds-1x.jpg);
 }
         
@@ -113,7 +113,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
 (min-resolution: 2dppx),
 (min-resolution: 192dpi) {
     .advertisement-container {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/advertisement/advertisement-ds-2x.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/img/advertisement/advertisement-ds-2x.jpg);
     }
 }
 
