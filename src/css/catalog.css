@@ -1,4 +1,4 @@
-.catalog{
+.catalog {
   margin-bottom: 60px;
 }
 .catalog-title {
@@ -11,7 +11,6 @@
   flex-direction: column;
   justify-content: flex-start;
   gap: 20px;
-  
 }
 .catalog-item {
   background: #f3f3f3;
@@ -20,7 +19,6 @@
   width: 335px;
   padding: 28px 24px;
 }
-
 .catalog-image {
   margin-bottom: 10px;
 }
@@ -54,12 +52,8 @@
   justify-content: center;
 }
 
-
-
 @media screen and (min-width: 768px) {
-
-  .catalog{
-
+  .catalog {
     margin-bottom: 80px;
   }
   .catalog-title {
@@ -71,12 +65,8 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-
     padding: 0;
-
     align-items: center;
-   
-
     gap: 32px 16px;
   }
   .catalog-item {
@@ -97,11 +87,10 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .catalog-container{
+  .catalog-container {
     max-width: 1280px;
-    
   }
-  .catalog{
+  .catalog {
     margin-bottom: 100px;
   }
   .catalog-title {
@@ -111,8 +100,7 @@
   .catalog-list {
     gap: 32px 23px;
   }
-  .catalog-item{
+  .catalog-item {
     width: 368px;
-    
   }
 }
