@@ -45,14 +45,12 @@
   margin-top: 40px;
   border: 1px dashed #9747ff;
 }
-.catalog-btn-container{
+.catalog-btn-container {
   display: flex;
   justify-content: center;
-  
 }
 @media screen and (min-width: 768px) {
   .catalog-container {
-   
     margin-bottom: 80px;
   }
   .catalog-title {
@@ -91,7 +89,6 @@
     margin-bottom: 40px;
   }
   .catalog-list {
-    
     gap: 32px 23px;
   }
   .catalog-item {
