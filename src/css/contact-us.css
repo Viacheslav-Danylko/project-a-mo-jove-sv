@@ -17,12 +17,12 @@
     }
 }
 
-/* .contact-us-large-field {
-} */
-
 .section-contact-us {
     padding-bottom: 60px;
 }
+
+/* .contact-us-large-field {
+} */
 
 @media screen and (min-width: 768px) {
     .contact-us-large-field {
@@ -70,7 +70,6 @@
     /* height: 512px; */
     /* background-color: #f3f3f3; */
     margin-bottom: 20px;
-    background-color: yellow;
 }
 
 @media screen and (min-width: 768px) {
