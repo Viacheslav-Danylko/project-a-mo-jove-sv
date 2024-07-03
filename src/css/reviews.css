@@ -53,9 +53,10 @@
 }
 
 /* -----------------Tablet----------------- */
-
 @media screen and (min-width: 768px) {
   .container-reviews {
+    max-width: 768px;
+    padding: 0 32px;
     margin-bottom: 80px;
   }
 
@@ -101,6 +102,9 @@
 
 /* -----------------Desktop----------------- */
 @media screen and (min-width: 1280px) {
+  .container-reviews {
+    max-width: 1280px;
+    padding: 0 65px;
     margin-bottom: 100px;
   }
 
