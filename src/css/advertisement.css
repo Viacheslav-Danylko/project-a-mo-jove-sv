@@ -3,7 +3,7 @@
 }
 
 .advertisement-container-into {
-    width: 335px;
+    max-width: 335px;
     padding: 60px 28px;
     border-radius: 30px;
     background-repeat: no-repeat;
@@ -64,13 +64,8 @@
 
 
 @media screen and (min-width: 768px) {
-    .advertisement-container {
-        max-width: 768px;
-        padding: 0 32px;
-    }
-
     .advertisement-container-into {
-        width: 704px;
+        max-width: 704px;
         padding: 80px 64px;
 
         background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
@@ -97,13 +92,8 @@
 
 
 @media screen and (min-width: 1280px) {
-    .advertisement-container {
-        max-width: 1280px;
-        padding: 0 65px;
-    }
-
     .advertisement-container-into {
-        width: 1150px;
+        max-width: 1150px;
         padding: 83px 80px;
         background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
             url(/img/advertisement/advertisement-ds-1x.jpg);
