@@ -54,13 +54,9 @@
 
 /* -----------------Tablet----------------- */
 @media screen and (min-width: 768px) {
-  .container {
+  .container-reviews {
     max-width: 768px;
     padding: 0 32px;
-  }
-
-  .container-reviews {
-    width: 768px;
     margin-bottom: 80px;
   }
 
@@ -88,11 +84,9 @@
   .reviews-subtitle {
     font-size: 18px;
     line-height: 1.1;
-    width: 298px;
   }
 
   .container-text {
-    width: 272px;
   }
 
   .reviews-container-text {
@@ -108,13 +102,9 @@
 
 /* -----------------Desktop----------------- */
 @media screen and (min-width: 1280px) {
-  .container {
+  .container-reviews {
     max-width: 1280px;
     padding: 0 65px;
-  }
-
-  .container-reviews {
-    width: 1280px;
     margin-bottom: 100px;
   }
 
@@ -132,7 +122,6 @@
   }
 
   .reviews-container-text {
-    width: 298px;
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: -0.02em;
