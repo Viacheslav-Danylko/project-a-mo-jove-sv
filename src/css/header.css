@@ -197,8 +197,8 @@
 @media screen and (min-width: 768px) {
 
   .header-container {
-    max-width: 768px;
-    padding: 26px 32px;
+    padding-top: 26px;
+    padding-bottom: 26px;
   }
 
   .header-logo {
@@ -259,14 +259,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-
-
-
-  .header-container {
-    max-width: 1280px;
-    padding: 24px 65px;
-  }
-
   .header-logo {
     padding: 8px 0 8px 0;
 
