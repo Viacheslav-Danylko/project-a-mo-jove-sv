@@ -1,14 +1,10 @@
-.header {
-  /* border-bottom: 1px solid rgba(12, 12, 12, 0.1); */
-}
-
 .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 20px;
-  gap: 203px;
+  
   border-bottom: 1px solid rgba(12, 12, 12, 0.1);
 }
 
@@ -16,7 +12,7 @@
 
   font-size: 16px;
   color: #0c0c0c;
-  /* padding: 6px 0; */
+  padding: 6px 0;
 
 }
 
@@ -48,9 +44,9 @@
   height: 100%;
   visibility: hidden;
   opacity: 0;
-  pointer-events: 0;
-  z-index: 999;
-
+  pointer-events: none;
+  z-index: 1;
+  overflow: auto;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -60,10 +56,9 @@
   top: 0;
   right: 0;
   width: 200px;
-  height: 100%;
+  max-height: 812px;
   flex-direction: column;
   justify-content: space-between;
-  overflow: auto;
   padding: 20px;
 
   background-repeat: no-repeat;
@@ -96,9 +91,7 @@
   pointer-events: auto;
 }
 
-.menu-nav {
-  text-align: center;
-}
+
 
 .menu-close-btn {
   display: flex;
@@ -116,6 +109,14 @@
 
 .menu-close-icon {
   fill: #fbfbfb;
+}
+
+.menu-nav {
+  text-align: center;
+}
+
+.menu-nav-list {
+  
 }
 
 .menu-nav-item {
@@ -199,6 +200,7 @@
   .header-container {
     padding-top: 26px;
     padding-bottom: 26px;
+    
   }
 
   .header-logo {
@@ -215,6 +217,7 @@
     background-image: linear-gradient(rgba(12, 12, 12, 0.92), rgba(12, 12, 12, 0.92)),
       url(/img/header/bg-hed-tab-1x.jpg);
     width: 330px;
+    max-height: 1024px;
     padding: 26px 32px;
   }
 
@@ -259,6 +262,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .header-container {
+    gap: 203px;
+  }
+  
   .header-logo {
     padding: 8px 0 8px 0;
 
