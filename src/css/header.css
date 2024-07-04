@@ -1,11 +1,15 @@
+.header {
+  border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+}
+
+
 .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 20px;
-  
-  border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+
 }
 
 .header-logo {
@@ -93,7 +97,6 @@
 }
 
 
-
 .menu-close-btn {
   display: flex;
   justify-content: center;
@@ -103,8 +106,7 @@
   height: 34px;
 
   margin-left: auto;
-  margin-bottom: 186px;
-
+  
   background-color: transparent;
   border: none;
 }
@@ -232,7 +234,6 @@
   .menu-close-btn {
     width: 40px;
     height: 40px;
-    margin-bottom: 244px;
   }
 
 
