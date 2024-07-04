@@ -218,7 +218,7 @@
     background-image: linear-gradient(rgba(12, 12, 12, 0.92), rgba(12, 12, 12, 0.92)),
       url(/img/header/bg-hed-tab-1x.jpg);
     width: 330px;
-    min-height: 1024px;
+    max-height: 1024px;
     padding: 26px 32px;
   }
 
