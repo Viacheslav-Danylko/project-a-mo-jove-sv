@@ -106,7 +106,7 @@
   height: 34px;
 
   margin-left: auto;
-  
+
   background-color: transparent;
   border: none;
 }
@@ -201,12 +201,12 @@
   .header-container {
     padding-top: 26px;
     padding-bottom: 26px;
-    
+
   }
 
   .header-logo {
     font-size: 20px;
-    padding: 6px 0 6px 0;
+
   }
 
   .menu-icon {
@@ -266,9 +266,9 @@
   .header-container {
     gap: 203px;
   }
-  
+
   .header-logo {
-    padding: 8px 0 8px 0;
+    padding: 5px 0;
 
   }
 
