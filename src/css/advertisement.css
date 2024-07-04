@@ -64,6 +64,10 @@
 
 
 @media screen and (min-width: 768px) {
+    .advertisement {
+        margin-bottom: 80px;
+    }
+    
     .advertisement-container-into {
         max-width: 704px;
         padding: 80px 64px;
@@ -89,6 +93,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .advertisement {
+        margin-bottom: 100px;
+    }
+    
     .advertisement-container-into {
         max-width: 1150px;
         padding: 83px 80px;
