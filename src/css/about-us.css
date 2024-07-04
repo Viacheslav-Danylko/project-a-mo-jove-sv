@@ -12,20 +12,21 @@
     max-width: 335px;
     background-color: #F3F3F3;
     border-radius: 30px;
+    padding: 40px 20px;
 
 }
 
 .about-us-title {
-    margin-top: 40px;
     margin-bottom: 28px;
-    margin-left: 20px;
 }
 
 .about-us-text {
     max-width: 295px;
     margin-bottom: 20px;
-    margin-left: 20px;
+}
 
+.two-text {
+    margin-bottom: 40px;
 }
 
 .about-us-btn-link {
@@ -37,9 +38,6 @@
     width: 160px;
     height: 48px;
     border-radius: 16px;
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 40px;
     transition: background-color .25s cubic-bezier(.4, 0, .2, 1);
 }
 
@@ -61,10 +59,10 @@
 
     .about-us-box {
         max-width: 704px;
+        padding: 80px 60px;
     }
 
     .about-us-title {
-        margin: 80px 60px;
         font-weight: 600;
         font-size: 48px;
         line-height: 0.92;
@@ -73,7 +71,6 @@
 
     .about-us-text {
         max-width: 584px;
-        margin-left: 60px;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.25;
@@ -81,12 +78,10 @@
         color: rgba(12, 12, 12, 0.7);
     }
 
-    .about-us-btn-link {
-        margin-top: 40px;
-        margin-left: 60px;
-        margin-bottom: 80px;
+    .two-text {
+        margin-bottom: 60px;
     }
-  }
+}
 
 @media screen and (min-width: 1280px) {
     .about-us {
@@ -94,27 +89,15 @@
     }
 
     .about-us-container {
-        /* width: 1280px;
-        padding: 0px 65px;
-        display: flex; */
         flex-direction: row;
-        /* gap: 40px; */
     }
 
     .about-us-box {
-        max-width: 460px;
+        max-width: 580px;
 
     }
 
-    .about-us-text {
-        max-width: 460px;
-    }
-
-    .about-us-btn-link {
-        margin-top: 20px;
-    }
-
-    .about-us-img-box {
-        margin: 0 auto;
+    .two-text {
+        margin-bottom: 40px;
     }
 }
