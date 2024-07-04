@@ -80,8 +80,6 @@
         }
     }
 
-
-
     .advertisement-text {
         font-size: 48px;
         line-height: 0.92;
@@ -89,7 +87,6 @@
     }
 
 }
-
 
 @media screen and (min-width: 1280px) {
     .advertisement-container-into {
