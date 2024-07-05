@@ -352,6 +352,7 @@
   }
 
   .header-socials-item:hover .header-socials-icon,
+  .header-socials-item:active .header-socials-icon,
   .header-socials-item:focus-within .header-socials-icon {
     fill: #3350E9;
   }
