@@ -35,7 +35,7 @@
 .sale-main-contant {
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 30px;
-    min-width: 335px;
+    max-width: 335px;
     height: 385px;
     background-color: #F3F3F3;
     margin-bottom: 20px;
@@ -50,7 +50,7 @@
 .sale-review {
     border-radius: 30px;
     width: 100%;
-    height: 561px;
+    /* height: 561px; */
     background-color: #3350E9;
     overflow: hidden;
     padding: 48px 28px;
