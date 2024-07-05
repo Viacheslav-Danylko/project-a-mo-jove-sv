@@ -1,6 +1,3 @@
-/* .sale-container {
-    padding-bottom: 60px;
-} */
 .sale {
     margin-bottom: 60px;
 }
@@ -31,11 +28,14 @@
 .sale-contant-image-mob {
     width: 52px;
 }
+.sale-contant-image {
+    max-width: 52px;
+}
 
 .sale-main-contant {
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 30px;
-    width: 335px;
+    min-width: 335px;
     height: 385px;
     background-color: #F3F3F3;
     margin-bottom: 20px;
@@ -44,8 +44,8 @@
     justify-content: center;
     align-items: center;
 }
-.sale-main-image-tab {
-    display: none;
+.sale-main-image {
+    max-width: 235px;
 }
 .sale-review {
     border-radius: 30px;
@@ -132,11 +132,8 @@
         letter-spacing: -0.02em;
         margin-bottom: 40px;
     }
-    .sale-contant-image-mob {
-        display: none;
-    }
-    .sale-contant-image-tab {
-        display: block;
+    .sale-contant-image {
+        max-width: 96px;
     }
     .sale-review {
         height: 518px;
@@ -195,15 +192,12 @@
         margin-bottom: 0;
     }
     .sale-main-contant {
-        width: 552px;
+        min-width: 552px;
         height: 558px;
         margin-bottom: 0;
     }
-    .sale-main-image-mob {
-        display: none;
-    }
-    .sale-main-image-tab {
-        display: block;
+    .sale-main-image {
+        max-width: 328px;
     }
 }
 @media screen and (min-width: 1280px) {
@@ -218,7 +212,7 @@
         margin-right: 40px;
     }
     .sale-main-contant {
-        width: 428px;
+        min-width: 428px;
     }
     .sale-review {
         width: 530px;

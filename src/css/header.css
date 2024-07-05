@@ -51,7 +51,8 @@
   pointer-events: none;
   z-index: 1;
   overflow: auto;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
 }
 
 .menu-overlay {
@@ -71,15 +72,11 @@
   background-color: #0C0C0C;
   background-image: linear-gradient(rgba(12, 12, 12, 0.92), rgba(12, 12, 12, 0.92)),
     url(/img/header/bg-hed-mob-1x.jpg);
-
-  transform: translateX(0);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.menu-open-btn:hover .menu-overlay,
-.menu-open-btn:active .menu-overlay {
   transform: translateX(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
+
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 2dppx),
@@ -94,6 +91,12 @@
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+
+}
+
+.is-open .menu-overlay {
+  transform: translateX(0);
+
 }
 
 
@@ -124,6 +127,7 @@
   display: block;
   position: relative;
   margin-bottom: 24px;
+
 
 }
 
@@ -330,6 +334,7 @@
     border: 1px solid rgba(12, 12, 12, 0.1);
     border-radius: 10px;
     padding: 8px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .header-socials-link {
