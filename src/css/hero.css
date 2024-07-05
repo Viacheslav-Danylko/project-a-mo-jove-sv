@@ -230,7 +230,9 @@ screen and (min-width: 375px) {
 .hero-button:hover {
   color: #3350e9;
 }
-
+.hero-button:focus {
+  color: #3350e9;
+}
 .hero-rectangle {
   max-width: 335px;
 }
